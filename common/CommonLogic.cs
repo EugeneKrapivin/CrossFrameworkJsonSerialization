@@ -109,7 +109,7 @@ namespace common
             {
                 "netcore" => new NetCoreSerializationBinder(),
                 "default" => new DefaultSerializationBinder(),
-                _ => throw new ArgumentException("Expecting mode -b switch with values [netcore|default]");
+                _ => throw new ArgumentException("Expecting mode -b switch with values [netcore|default]")
             };
         }
 
