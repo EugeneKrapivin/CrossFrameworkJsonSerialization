@@ -1,10 +1,10 @@
 {
   "$type": "Common.Model, common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-  "Str": "5536e08c-dcfe-41a6-821f-6d7a66b01d9a",
+  "Str": "efb151c2-fd25-4783-a48a-1c476ae7323f",
   "Int": 9,
   "Inner": {
     "$type": "Common.Model+InnerModel, common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-    "Str": "93959cff-203b-4fda-962f-5b8049e0b3c6",
+    "Str": "8bfed23e-9b04-4289-9bfc-ab83ab5f5774",
     "Int": 10
   },
   "List": {
@@ -12,5 +12,7 @@
     "$values": [
       "test"
     ]
-  }
+  },
+  "TModel": "Common.Model, common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "TString": "System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
 }

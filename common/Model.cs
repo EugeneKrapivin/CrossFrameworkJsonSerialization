@@ -12,7 +12,10 @@ namespace Common
 
         //public Type Type { get; set; } = typeof(string);
 
-        public List<string> List { get; set; } = new List<string> {"test"};
+        public List<string> List { get; set; }
+
+        public Type TModel { get; set; } = typeof(Model);
+        public Type TString { get; set; } = typeof(string);
 
         public class InnerModel
         {

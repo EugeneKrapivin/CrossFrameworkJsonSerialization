@@ -48,7 +48,8 @@ namespace common
                             Console.WriteLine(data);
                         }
 
-                        var result = JsonConvert.SerializeObject(new Model(), Formatting.Indented, settings);
+                        var model = new Model {List = new List<string> {"test"}};
+                        var result = JsonConvert.SerializeObject(model, Formatting.Indented, settings);
 
                         Console.WriteLine("successfully serialized");
                         Console.WriteLine(result);
