@@ -1,0 +1,16 @@
+{
+  "$type": "Common.Model, common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "Str": "5536e08c-dcfe-41a6-821f-6d7a66b01d9a",
+  "Int": 9,
+  "Inner": {
+    "$type": "Common.Model+InnerModel, common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "Str": "93959cff-203b-4fda-962f-5b8049e0b3c6",
+    "Int": 10
+  },
+  "List": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "test"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "net5serde": {
+      "commandName": "Project",
+      "commandLineArgs": "\"-t all\" \"-m des\" \"-a full\""
+    }
+  }
+}

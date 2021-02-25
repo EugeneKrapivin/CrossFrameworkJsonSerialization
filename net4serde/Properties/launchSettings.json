@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "net4serde": {
+      "commandName": "Project",
+      "commandLineArgs": "-m des -t all -a full"
+    }
+  }
+}
